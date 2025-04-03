@@ -1,0 +1,30 @@
+{
+  "name": "log-collector",
+  "version": "1.0.0",
+  "description": "A lightweight browser log collector with IndexedDB storage, compression, and export capabilities.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "log",
+    "collector",
+    "IndexedDB",
+    "browser",
+    "logging"
+  ],
+  "author": "woody",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "dexie": "^3.2.2",
+    "pako": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/pako": "^2.0.3",
+    "typescript": "^5.1.6"
+  }
+}
