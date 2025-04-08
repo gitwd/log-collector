@@ -91,12 +91,15 @@ LogCollector {
 
 示例:
 ```
+const logger = new LogCollector(3600000, false);  // 关闭默认快捷键
+
 logCollector.onExportTrigger(() => logCollector.exportLogs());
 
 // 绑定按钮触发
 document.getElementById("exportBtn").addEventListener("click", () => {
     logCollector.triggerExport();
 });
+
 ```
 
 - logCollector.triggerExport(): void
