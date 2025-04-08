@@ -1,6 +1,6 @@
 {
   "name": "log-collector-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A lightweight browser log collector with IndexedDB storage, compression, and export capabilities.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
