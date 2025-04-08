@@ -28,7 +28,7 @@ export class LogCollector {
     message: string | object | any[],
     level: "INFO" | "WARN" | "ERROR" = "INFO"
   ) {
-    const timestamp = `[${dayjs().format("MMDD HH:mm:ss")}]`;
+    const timestamp = `[${dayjs().format("MM-DD HH:mm:ss")}]`;
     let logEntry: string;
 
     if (typeof message === "string") {
