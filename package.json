@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gitwd/log-collector-js.git"
+    "url": "git+https://github.com/gitwd/log-collector-js.git"
   },
   "bugs": {
     "url": "https://github.com/gitwd/log-collector-js/issues"
